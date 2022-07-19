@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.header {
+    height: 60px;
+    margin: 20px;
+}
+.header-container> h1 {
+    float: left;
+    color: #D2872C;
+}
+.header > img {
+    float: left;
+}
+
+.header-container > ul li{
+    margin: 20px;
+    float: right;
+    display: inline-block;
+}
+
+.main-div > img {
+    position: relative;
+    float: right;
+    width: 500px;
+    margin: 80px;
+}
+.main-div > h2, h3 {
+   margin-top: 40px;
+   position: relative;
+}
+.main-div > h2 {
+    font-size: 60px;
+    width: 900px;
+}
+.main-div > h3 {
+    font-size: 30px;
+    width: 900px;
+}
+#botao {
+    background-color: #D2872C;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 235px;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+}
